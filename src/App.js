@@ -3,7 +3,7 @@ import Card from "./Card"
 
 function App() {
     return (
-        <div>
+        <div className="tc">
             <Card cardColor="red" height={200} width={200} />
             <Card cardColor="purple" />
             <Card cardColor="green" />
